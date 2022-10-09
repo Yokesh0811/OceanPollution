@@ -41,11 +41,11 @@ const btn = document.querySelector('.navBtn');
   gsap.to(".no", {
     scrollTrigger:{
       trigger: ".page45",
-      end:"top",
+      end:"center",
       toggleActions:"restart ",
     },
     x : 0,
-    duration: 1.5,
+    duration: 2,
   });
 
   gsap.to(".p45",{
